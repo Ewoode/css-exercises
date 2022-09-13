@@ -34,6 +34,22 @@ body {
   font-style: italic;
 }
 
+.left {
+  display: flex;
+  margin: 0px;
+  padding: 16px;
+  gap: 8px;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  margin: 0px;
+  padding: 16px;
+  gap: 8px;
+  align-items: center;
+}
+
 button {
   border: none;
   border-radius: 8px;
