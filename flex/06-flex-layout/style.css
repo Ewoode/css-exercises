@@ -15,11 +15,11 @@ img {
 }
 
 button {
-  display: flex;
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -29,7 +29,6 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
-
 
 ul {
   display: flex;
@@ -47,4 +46,13 @@ ul {
 
 .footer{
   background-color:#eeeeee;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
